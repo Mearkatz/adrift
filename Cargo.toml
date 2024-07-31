@@ -1,0 +1,18 @@
+[package]
+name = "adrift"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Mearkatz <drquinsey@gmail.com>",
+]
+description = "A game about an AI managing a ship floating through space"
+
+[lints.clippy]
+enum_glob_use = { level = "deny", priority = -2 }
+pedantic = { level = "deny", priority = -3 }
+nursery = { level = "deny", priority = -4 }
+unwrap_used = { level = "deny", priority = -5 }
+expect_used = { level = "deny", priority = -6 }
+
+[dependencies]
+bounded-ints = { git = "https://github.com/Mearkatz/bounded-ints", version = "0.1.1" }
