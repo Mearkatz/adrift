@@ -16,3 +16,5 @@ expect_used = { level = "deny", priority = -6 }
 
 [dependencies]
 bounded-ints = { git = "https://github.com/Mearkatz/bounded-ints", version = "0.1.1" }
+slow-print = { git = "https://github.com/Mearkatz/slow-print", version = "0.1.1"}
+inquire = "0.7.5"
